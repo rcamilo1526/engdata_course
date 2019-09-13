@@ -39,7 +39,7 @@ def _extract_newspaper_uid(filename):
     logger.info('Newspaper uid detected: {}'.format(newspaper_uid))
     return newspaper_uid
 def _add_newspaper_uid_column(df,newspaper_uid):
-    logger.info('Filling nespaper_uid column with {}'.format(newspaper_uid))
+    logger.info('Filling newspaper_uid column with {}'.format(newspaper_uid))
     df['newspaper_uid']=newspaper_uid
     return df
 def _extract_host(df):
